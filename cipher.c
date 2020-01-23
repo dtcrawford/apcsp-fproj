@@ -3,6 +3,8 @@
 #include <string.h>
 #include "decrypt.h"
 
+ 
+if (Arg3 = 1) {
 int main(int argc, char* argv[])
 {
    int arg = 1;
@@ -13,6 +15,8 @@ int main(int argc, char* argv[])
   }
   
 }
+}
+else {
 int main(int argc, char* argv[])
 {
    int arg = 1;
@@ -21,4 +25,5 @@ int main(int argc, char* argv[])
     encrypt(3, argv[arg]);
     arg++;
   }
+}
 }
