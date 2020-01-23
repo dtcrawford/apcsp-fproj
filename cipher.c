@@ -4,7 +4,7 @@
 #include "decrypt.h"
 
  
-if (Arg3 = 1) {
+if (Argv[3] = 1) {
 int main(int argc, char* argv[])
 {
    int arg = 1;
